@@ -10,11 +10,11 @@ from itertools import count, groupby
 
 from dateutil import rrule
 
-from clients.recreation_client import RecreationClient
-from enums.date_format import DateFormat
-from enums.emoji import Emoji
-from utils import formatter
-from utils.camping_argparser import CampingArgumentParser
+from .clients.recreation_client import RecreationClient
+from .enums.date_format import DateFormat
+from .enums.emoji import Emoji
+from .utils import formatter
+from .utils.camping_argparser import CampingArgumentParser
 
 LOG = logging.getLogger(__name__)
 log_formatter = logging.Formatter(

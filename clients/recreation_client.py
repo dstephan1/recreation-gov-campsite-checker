@@ -3,7 +3,7 @@ import logging
 import requests
 from fake_useragent import UserAgent
 
-from utils import formatter
+from ..utils import formatter
 
 LOG = logging.getLogger(__name__)
 
